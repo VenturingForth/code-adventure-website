@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "./ui/header";
 import NavBar from "./ui/navbar";
 import Contact from "./ui/contact";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -20,9 +21,15 @@ export default function Home() {
         </ul>
       </p>
       <h2 className="text-base font-bold text-teal-500">Why Code Adventure?</h2>
-      <p>I wanted a place where I could chronicle my journey as a career-switching coding, and keep track of my projects and knowledge over the coming years. As such, this little den of scrap knowledge includes links to completed projects, course progress and blog articles that I've written up. It is also a place fellow coders can contact me whether for employment opportunities, provide me with tips or advice, or even consult me on my own experiences if looking for advice of their own.</p>
+      <p>I wanted a place where I could chronicle my journey as a career-switching coder, and keep track of my projects and knowledge over the coming years. As such, this little den of knowledge includes links to completed projects, course progress and blog articles that I've written up. It is also a place fellow coders can contact me whether for employment opportunities, provide me with tips or advice, or even consult me on my own experiences if looking for advice of their own.</p>
       <Contact />
     </main>
+    <footer>
+      <p>&copy; Joshua Robinson 2024</p>
+      <address>
+        <Link href="mailto:joshua@codeadventure.uk">joshua@codeadventure.uk</Link>
+      </address>
+    </footer>
     </>
   );
 }
