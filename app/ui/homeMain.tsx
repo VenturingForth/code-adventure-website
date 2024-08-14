@@ -30,7 +30,6 @@ export default function HomeMain() {
                     <li>Social media links and profiles</li>
                 </ul>
             </section>
-            <Contact />
         </main>
     )
 }
