@@ -6,8 +6,6 @@ import NavBar from "../ui/navbar";
 export default function Page(){
     return (
         <>
-            <Header />
-            <NavBar />
             <main className="p-4">
                 <h1 className="text-2xl font-bold text-center text-teal-500">Curriculum Vitae of Joshua Robinson</h1>
                 <h2 className="text-xl font-bold text-center text-teal-500">Junior Software Developer</h2>
@@ -69,7 +67,6 @@ export default function Page(){
                     <p>I regularly attend coding events in Newcastle and the North East, completing katas and challenges with local developers as well as keeping up to date with local and regional industry. I also continue to work on my own coding projects, and find ways of combining it with my other hobbies such as 3D printing and tabletop gaming.</p>
                 </section>
             </main>
-            <Footer />
         </>
     )
 }

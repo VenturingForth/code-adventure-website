@@ -6,10 +6,7 @@ import HomeMain from "./ui/homeMain";
 export default function Home() {
   return (
     <>
-      <Header />
-      <NavBar />
       <HomeMain />
-      <Footer />
     </>
   );
 }
