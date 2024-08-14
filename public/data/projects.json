@@ -1,0 +1,25 @@
+{
+    "projects" : [
+        {
+            "title": "NC News Back End",
+            "tech" : [
+                "JavaScript",
+                "Express.js",
+                "PostgreSQL"
+            ],
+            "description": "Engineered the back end for a bulletin-style website with a hosted API coded in Javascript and PostgreSQL.",
+            "github": "https://github.com/VenturingForth/nc-news-be",
+            "url": "https://nc-news-6ukh.onrender.com/api"
+        },
+        {
+            "title": "NC News Front End",
+            "tech" : [
+                "JavaScript",
+                "React"
+            ],
+            "description": "Designed and implemented the front-end of the NC News bulletin site with Javascript and React.",
+            "github": "https://github.com/VenturingForth/nc-news-fe",
+            "url": "https://nc-news-with-jr.netlify.app/"
+        }
+    ]
+}
