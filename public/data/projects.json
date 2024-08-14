@@ -20,6 +20,28 @@
             "description": "Designed and implemented the front-end of the NC News bulletin site with Javascript and React.",
             "github": "https://github.com/VenturingForth/nc-news-fe",
             "url": "https://nc-news-with-jr.netlify.app/"
+        },
+        {
+            "title": "Katatak",
+            "tech" : [
+                "TypeScript",
+                "React Native",
+                "PostgreSQL"
+            ],
+            "description": "A full-stack mobile application for practicing code implemented with Typescript and React Native as part of the final project on the Northcoders software engineering track. ",
+            "github": "https://github.com/VenturingForth/katatak-be",
+            "url": "https://github.com/VenturingForth/katatak-fe"
+        },
+        {
+            "title": "CP Calc",
+            "tech" : [
+                "JavaScript",
+                "React",
+                "Bootstrap"
+            ],
+            "description": "A front-end application that calculates carbohydrate portions for type 1 diabetics. Utility functions were written in JavaScript and tested with Jest. The front-end was written with JavaScript, React and Bootstrap.",
+            "github": "https://github.com/VenturingForth/cp-calc",
+            "url": "https://cp-calc.netlify.app/"
         }
     ]
 }
