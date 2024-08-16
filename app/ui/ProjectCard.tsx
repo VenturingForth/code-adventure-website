@@ -16,9 +16,10 @@ interface Project {
 export default function ProjectCard(project: Project) {
     
     return(
-        <div className="p-1 m-1 bg-slate-500 rounded-lg">
-            <h2 className="">{project.title}</h2>
-            <h3>Tech Stacks:</h3>
+        <li className="p-1 m-1 bg-slate-500 rounded-lg">
+            <div className="p-3">
+            <h2 className="text-lg font-bold text-teal-200">{project.title}</h2>
+            <h3 className="italic">Tech Stacks:</h3>
             {project.tech.map((stack) => <p>{stack}</p>)}
             <p>{project.description}</p>
             <p>
@@ -39,6 +40,7 @@ export default function ProjectCard(project: Project) {
                     Live Demo
                 </Link>
             </p>
-        </div>
+            </div>
+        </li>
     )
 }

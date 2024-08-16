@@ -11,7 +11,7 @@ export default function ProjectList(){
     }
     const projects:Array<Project> = projectsJson.projects;
     return (
-        <ul>
+        <ul className='grid grid-cols-2 gap-4'>
             {projects.map((project) => {
                 return (
                     <ProjectCard {...project} />
