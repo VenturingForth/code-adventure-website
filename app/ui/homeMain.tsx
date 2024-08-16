@@ -3,12 +3,12 @@ import Contact from "./contact"
 
 export default function HomeMain() {
     return(
-        <main className="p-4">
+        <main className="p-4 grid grid-cols-2 ml-96 mr-96">
             <Image
                 src="/JR-bio-pic-desktop-tall.png"
-                width={400}
-                height={714}
-                className="hidden md:block rounded-3xl border-solid border-4 border-teal-500"
+                width={280}
+                height={500}
+                className="hidden md:block rounded-3xl border-solid border-4 border-teal-500 row-span-3 "
                 alt="A photograph of Joshua Robinson, Junior Software Engineer"
             />
             <Image
